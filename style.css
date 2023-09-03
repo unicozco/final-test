@@ -114,7 +114,7 @@ padding-top: 5px;
     height: 470px;
     width: 400px;
     background-color:#ffffff;
-    margin-left: 100px;
+    margin-left: 300px;
     margin-top: 50px;
     border-radius: 20px; 
     border: 2px solid grey; 
@@ -347,6 +347,7 @@ td{
 .comp-logo{
     height: 320px;
     width: 100%;
+    margin-left: 150px;
 }
 .image-row1{
     height: 80px;
@@ -373,14 +374,14 @@ td{
   color: #ffffff;
   width: 240px;
   height: 50px;
-  margin-left:520px;
+  margin-left:620px;
   margin-top: 20px;
   padding-bottom: 10px;
   border-radius: 10px;
 }
 .walloflove{
     width:100%;
-    height:600px;
+    height:500px;
 }
 .love-section{
     margin:auto;
