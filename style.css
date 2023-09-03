@@ -1,0 +1,473 @@
+.my-navbar{
+display: flex;
+margin-top: px;
+margin-bottom: 20p;
+align-items: center;
+justify-content: center;
+position: fixed;
+width: 100vw;
+height: 75px;
+background-color: #ffffff;
+padding-top: 5px;
+}
+.my-navbar:hover{
+    cursor: pointer;
+}
+.my-content{
+    display:flex;
+    margin-left: 400px;
+    width: 30vw;
+    padding-top:10px;
+}
+.my-button{
+   margin-left: 30px;
+   font-size: 12px;
+   height:40px;
+   width:100px;
+   border-radius:10px;
+   border-width: 2px;
+}
+.my-content>p{
+    font-size: 13px;
+    font-weight:10px;
+}
+.my-content>p:hover{
+    scale: 1.1;
+}
+.my-banner{
+    background-color: #2f80ed;
+    color: white;
+    margin-top: 15px;
+    font-weight: 200px;
+    font-size:13px;
+    position: fixed;
+    width:100vw;
+    margin-top: 75px;
+}
+.hero-section1{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items:center;
+    
+}
+.innerboxes{
+    width: 650px;
+    height: 330px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.inner-header{
+    font-style: italic;
+    word-spacing: 3px;
+}
+.colored-text{
+    color: #2f80ed;
+}
+.inner-para{
+    width: 400px;
+    margin-top: 14px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.inner-features{
+  width: 102%;
+  height:60px;
+  border-radius: 10px;
+  box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.my-features{
+  width: 200px;
+  height: 50px;
+  padding-top: 15px;
+  align-items: center;
+  padding-left: 12px;
+  cursor: pointer;
+}
+.para-1{
+    margin-left: 32px;
+    margin-top: -35px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+.para-2{
+    margin-top: -20px;
+    margin-left: 32px;
+    font-size: small;
+}
+.sign-box{
+    margin-top: 70px;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 280px;
+    height: 50px;
+    padding: 14px;
+    padding-left:20px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.sign-box:hover{
+    scale: 1.1;
+}
+.my-form-box{
+    height: 470px;
+    width: 400px;
+    background-color:#ffffff;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 20px; 
+    border: 2px solid grey; 
+}
+.my-form-box::before {
+    content: "";
+    background: linear-gradient(90deg, hotpink,#2f80edff);
+    position: absolute;
+    height: 470px;
+    width: 400px;
+    z-index: -1;
+    filter: blur(10px)}
+  
+
+.form-headings{
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+    font-style: italic;
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+}
+.form-header-para{
+    font-style: normal;
+    color: #818d9d;
+    font-weight: lighter;
+}
+.form-details{
+    margin-left: 40px;
+    margin-top:20px;
+    font-size: 20px;
+}
+.naming-box{
+    border: none;
+    padding-top:10px;
+    margin-top: 10px;
+}
+.apply-button{
+    height: 55px;
+    width: 350px;
+    border-radius: 10px;
+   margin-left: -15px;
+   margin-top:30px;
+   font-size: 25;
+   word-spacing:2px;
+   font-style: italic;
+   color: white;
+   background: rgb(33,32,32);
+background: linear-gradient(90deg, rgba(33,32,32,1) 0%, rgba(12,113,210,1) 0%, rgba(232,94,227,1) 98%);
+border: none;
+}
+.apply-button:hover{
+    scale: 1.02;
+}
+.my-terms{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 40px;
+    text-align: center;
+    justify-content: center;
+    width: 240px;
+}
+.hero-section-2{
+    height: 680px;
+    width: 100%;
+    background-color: #ecf8ff;
+}
+.section-box1{
+    margin-left: 480px;
+}
+.section-2-header{
+    font-style: italic;
+    color: #6954ed;
+    margin-top: 00px;
+    font-size: 18px;
+    word-spacing: 5px;
+    padding-top: 30px;
+    
+}
+.our-courses{
+    margin-left: 75px;
+    color:#2f80ed
+}
+.main-table-div{
+    
+}
+.table-1-intro{
+    height:450px;
+    width: 480px;
+    margin-top: 70px;
+    margin-left: 10px;
+    background-color:#ffffff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    
+}
+.table-2-intro{
+    height:450px;
+    width: 480px;
+    margin-top: 70px;
+    margin-left: 30px;
+    background-color:#ffffff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.intro-para{
+    color: white;
+    background-color: #2f80ed;
+    border-radius: 6px;
+    height: 30px;
+    text-align: center;
+    width:300px;
+    font-style: italic;
+    margin: auto;
+    margin-top:-15px;
+    padding: 4px;
+    font-size: 14px;
+}
+.beginner1{
+    margin-left:170px;
+    margin-top:0px;
+    font-style: italic;
+    font-size: 25px;
+}
+.beginner{
+    margin-left:170px;
+    margin-top:10px;
+    font-style: italic;
+    font-size: 25px;
+}
+.job-access{
+    display: flex;
+ margin-left: 70px;
+}
+.my-blue-box{
+height: 30px;
+width: 150px;
+background-color: #e0f3ff;
+margin-inline: 10px;
+text-align: center;
+border-radius: 10px;
+padding: 4px;
+color: #2f80ed;
+font-size: 13px;
+}
+.my-brown-box{
+height: 30px;
+width: 150px;
+background-color: #ffeed8;
+margin-inline: 10px;
+text-align: center;
+border-radius: 10px;
+padding: 4px;
+color: #965400;
+font-size: 13px;
+}
+.journey-header{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.section2table-1{
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 85%;
+}
+.section2table-2{
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 85%;
+    height: 300px;
+}
+td{
+  font-size: 15px;
+  padding-inline: 10px;
+  width: 200px;
+  padding-top: 12px;
+}
+.table-buttons{
+    margin-top: 20px;
+    margin-left:-24px;
+    width: 100%;
+}
+.my-button{
+    width: 150px;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+.corp-section{
+    height: 680px;
+    width: 100%;
+    background-color: #ffffff;
+    
+}
+.hire-head{
+    margin-inline: auto;
+    width: 40%;
+    height: 180px;
+    margin-top: 80px;
+}
+.top-300{
+     margin-left: 150px;
+     font-style: italic;
+     font-size:14px;
+     background: -webkit-linear-gradient(#0347d9, #a502ae);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     word-spacing: 5px;
+}
+.top-header{
+    font-style: italic;
+    width: 80%;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 35px;
+}
+.blue-text{
+    color: #2f80ed;
+}
+.lakhs41{
+    margin-left: 165px;
+    margin-top: -10px;
+    font-size:13px;
+    font-weight: light;
+}
+.comp-logo{
+    height: 320px;
+    width: 100%;
+}
+.image-row1{
+    height: 80px;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+.image-row2{
+    height: 80px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+.my-companies{
+    height:60px;
+    width:150px;
+    margin-inline: 25px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.my-button3{
+  background-color: #2f80ed;
+  color: #ffffff;
+  width: 240px;
+  height: 50px;
+  margin-left:520px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+.walloflove{
+    width:100%;
+    height:600px;
+}
+.love-section{
+    margin:auto;
+    width: 40%;
+    text-align: center;
+    margin-top: 70px;
+}
+.love-header{
+    font-style: italic;
+    word-spacing: 2px;
+}
+.love-para{
+    font-weight: lighter;
+    font-size: 30pxpx;
+}
+.love-cards{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+}
+.card-outbox{
+    height: 394px;
+    width: 32%;
+    border: 2px solid yellow;
+}
+.card-outbox2{
+    height: 394px;
+    width: 32%;
+    border: 2px solid yellow;
+    margin-inline: 22px;
+    
+
+}
+.my-card1{
+    height: 170px;
+    border-radius: 12px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.my-card2{
+    height: 210px;
+    margin-top:10px ;
+    border-radius: 12px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.pro-pic>img{
+    border-radius: 50%;
+}
+.pro-name{
+   margin-left: 10px;
+}
+.my-name{
+   font-style: italic;
+   font-size: 20px;
+
+}
+.my-bio{
+    margin-top: -20px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.pro-logo{
+    margin-left: 70px;
+}
+.pro-logo>img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.my-review{
+    height: 100px;
+    width: 300px;
+    font-size: 10px;
+}
+.my-date{
+    font-size: 8px;
+    margin-top: -10px;
+}
+.my-card3{
+    height: 210px;
+    border-radius: 12px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.my-card4{
+    height: 170px;
+    border-radius: 12px;
+    margin-top: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
